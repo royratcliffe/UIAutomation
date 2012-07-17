@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78B19B9E15B5B5E200D9E96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19B9D15B5B5E200D9E96E /* Foundation.framework */; };
+		78B19BA315B5B5E200D9E96E /* UIAutomation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B19BA215B5B5E200D9E96E /* UIAutomation.h */; };
+		78B19BAD15B5B5E200D9E96E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19BAC15B5B5E200D9E96E /* SenTestingKit.framework */; };
+		78B19BAF15B5B5E200D9E96E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19BAE15B5B5E200D9E96E /* UIKit.framework */; };
+		78B19BB015B5B5E200D9E96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19B9D15B5B5E200D9E96E /* Foundation.framework */; };
+		78B19BB315B5B5E200D9E96E /* libUIAutomation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19B9A15B5B5E200D9E96E /* libUIAutomation.a */; };
+		78B19BB915B5B5E200D9E96E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78B19BB715B5B5E200D9E96E /* InfoPlist.strings */; };
+		78B19BBC15B5B5E300D9E96E /* UIAutomationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B19BBB15B5B5E300D9E96E /* UIAutomationTests.m */; };
+		78B19BF815B5B7DA00D9E96E /* UIAutomationLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B19BF715B5B7DA00D9E96E /* UIAutomationLoader.m */; };
+		78B19BF915B5B93200D9E96E /* UIAutomationLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B19BF615B5B7DA00D9E96E /* UIAutomationLoader.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78B19BB115B5B5E200D9E96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78B19B9115B5B5E200D9E96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78B19B9915B5B5E200D9E96E;
+			remoteInfo = UIAutomation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78B19B9815B5B5E200D9E96E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				78B19BA315B5B5E200D9E96E /* UIAutomation.h in CopyFiles */,
+				78B19BF915B5B93200D9E96E /* UIAutomationLoader.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		78B19B9A15B5B5E200D9E96E /* libUIAutomation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIAutomation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B19B9D15B5B5E200D9E96E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78B19BA115B5B5E200D9E96E /* UIAutomation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAutomation-Prefix.pch"; sourceTree = "<group>"; };
+		78B19BA215B5B5E200D9E96E /* UIAutomation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutomation.h; sourceTree = "<group>"; };
+		78B19BAB15B5B5E200D9E96E /* UIAutomationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAutomationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B19BAC15B5B5E200D9E96E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		78B19BAE15B5B5E200D9E96E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		78B19BB615B5B5E200D9E96E /* UIAutomationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAutomationTests-Info.plist"; sourceTree = "<group>"; };
+		78B19BB815B5B5E200D9E96E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78B19BBA15B5B5E300D9E96E /* UIAutomationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutomationTests.h; sourceTree = "<group>"; };
+		78B19BBB15B5B5E300D9E96E /* UIAutomationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAutomationTests.m; sourceTree = "<group>"; };
+		78B19BF615B5B7DA00D9E96E /* UIAutomationLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAutomationLoader.h; sourceTree = "<group>"; };
+		78B19BF715B5B7DA00D9E96E /* UIAutomationLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAutomationLoader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78B19B9715B5B5E200D9E96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B19B9E15B5B5E200D9E96E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B19BA715B5B5E200D9E96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B19BAD15B5B5E200D9E96E /* SenTestingKit.framework in Frameworks */,
+				78B19BAF15B5B5E200D9E96E /* UIKit.framework in Frameworks */,
+				78B19BB015B5B5E200D9E96E /* Foundation.framework in Frameworks */,
+				78B19BB315B5B5E200D9E96E /* libUIAutomation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78B19B8F15B5B5E200D9E96E = {
+			isa = PBXGroup;
+			children = (
+				78B19B9F15B5B5E200D9E96E /* UIAutomation */,
+				78B19BB415B5B5E200D9E96E /* UIAutomationTests */,
+				78B19B9C15B5B5E200D9E96E /* Frameworks */,
+				78B19B9B15B5B5E200D9E96E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78B19B9B15B5B5E200D9E96E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78B19B9A15B5B5E200D9E96E /* libUIAutomation.a */,
+				78B19BAB15B5B5E200D9E96E /* UIAutomationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78B19B9C15B5B5E200D9E96E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78B19B9D15B5B5E200D9E96E /* Foundation.framework */,
+				78B19BAC15B5B5E200D9E96E /* SenTestingKit.framework */,
+				78B19BAE15B5B5E200D9E96E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78B19B9F15B5B5E200D9E96E /* UIAutomation */ = {
+			isa = PBXGroup;
+			children = (
+				78B19BA215B5B5E200D9E96E /* UIAutomation.h */,
+				78B19BF615B5B7DA00D9E96E /* UIAutomationLoader.h */,
+				78B19BF715B5B7DA00D9E96E /* UIAutomationLoader.m */,
+				78B19BA015B5B5E200D9E96E /* Supporting Files */,
+			);
+			path = UIAutomation;
+			sourceTree = "<group>";
+		};
+		78B19BA015B5B5E200D9E96E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78B19BA115B5B5E200D9E96E /* UIAutomation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78B19BB415B5B5E200D9E96E /* UIAutomationTests */ = {
+			isa = PBXGroup;
+			children = (
+				78B19BBA15B5B5E300D9E96E /* UIAutomationTests.h */,
+				78B19BBB15B5B5E300D9E96E /* UIAutomationTests.m */,
+				78B19BB515B5B5E200D9E96E /* Supporting Files */,
+			);
+			path = UIAutomationTests;
+			sourceTree = "<group>";
+		};
+		78B19BB515B5B5E200D9E96E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78B19BB615B5B5E200D9E96E /* UIAutomationTests-Info.plist */,
+				78B19BB715B5B5E200D9E96E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78B19B9915B5B5E200D9E96E /* UIAutomation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B19BBF15B5B5E300D9E96E /* Build configuration list for PBXNativeTarget "UIAutomation" */;
+			buildPhases = (
+				78B19B9615B5B5E200D9E96E /* Sources */,
+				78B19B9715B5B5E200D9E96E /* Frameworks */,
+				78B19B9815B5B5E200D9E96E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIAutomation;
+			productName = UIAutomation;
+			productReference = 78B19B9A15B5B5E200D9E96E /* libUIAutomation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		78B19BAA15B5B5E200D9E96E /* UIAutomationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B19BC215B5B5E300D9E96E /* Build configuration list for PBXNativeTarget "UIAutomationTests" */;
+			buildPhases = (
+				78B19BA615B5B5E200D9E96E /* Sources */,
+				78B19BA715B5B5E200D9E96E /* Frameworks */,
+				78B19BA815B5B5E200D9E96E /* Resources */,
+				78B19BA915B5B5E200D9E96E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78B19BB215B5B5E200D9E96E /* PBXTargetDependency */,
+			);
+			name = UIAutomationTests;
+			productName = UIAutomationTests;
+			productReference = 78B19BAB15B5B5E200D9E96E /* UIAutomationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78B19B9115B5B5E200D9E96E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Pioneering Software";
+			};
+			buildConfigurationList = 78B19B9415B5B5E200D9E96E /* Build configuration list for PBXProject "UIAutomation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78B19B8F15B5B5E200D9E96E;
+			productRefGroup = 78B19B9B15B5B5E200D9E96E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78B19B9915B5B5E200D9E96E /* UIAutomation */,
+				78B19BAA15B5B5E200D9E96E /* UIAutomationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78B19BA815B5B5E200D9E96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B19BB915B5B5E200D9E96E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78B19BA915B5B5E200D9E96E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78B19B9615B5B5E200D9E96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B19BF815B5B7DA00D9E96E /* UIAutomationLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B19BA615B5B5E200D9E96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B19BBC15B5B5E300D9E96E /* UIAutomationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78B19BB215B5B5E200D9E96E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78B19B9915B5B5E200D9E96E /* UIAutomation */;
+			targetProxy = 78B19BB115B5B5E200D9E96E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78B19BB715B5B5E200D9E96E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B19BB815B5B5E200D9E96E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78B19BBD15B5B5E300D9E96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78B19BBE15B5B5E300D9E96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78B19BC015B5B5E300D9E96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UIAutomation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAutomation/UIAutomation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		78B19BC115B5B5E300D9E96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UIAutomation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAutomation/UIAutomation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		78B19BC315B5B5E300D9E96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAutomation/UIAutomation-Prefix.pch";
+				INFOPLIST_FILE = "UIAutomationTests/UIAutomationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		78B19BC415B5B5E300D9E96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAutomation/UIAutomation-Prefix.pch";
+				INFOPLIST_FILE = "UIAutomationTests/UIAutomationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78B19B9415B5B5E200D9E96E /* Build configuration list for PBXProject "UIAutomation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B19BBD15B5B5E300D9E96E /* Debug */,
+				78B19BBE15B5B5E300D9E96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78B19BBF15B5B5E300D9E96E /* Build configuration list for PBXNativeTarget "UIAutomation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B19BC015B5B5E300D9E96E /* Debug */,
+				78B19BC115B5B5E300D9E96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78B19BC215B5B5E300D9E96E /* Build configuration list for PBXNativeTarget "UIAutomationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B19BC315B5B5E300D9E96E /* Debug */,
+				78B19BC415B5B5E300D9E96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78B19B9115B5B5E200D9E96E /* Project object */;
+}
