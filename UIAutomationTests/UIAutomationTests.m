@@ -34,4 +34,19 @@
 	STAssertNotNil(localTarget, nil);
 }
 
+- (void)testFrontMostApp
+{
+	UIATarget *localTarget = [[UIAutomation targetClass] localTarget];
+	UIAApplication *app = [localTarget frontMostApp];
+	STAssertNotNil(app, nil);
+}
+
+- (void)testMainWindow
+{
+	UIATarget *localTarget = [[UIAutomation targetClass] localTarget];
+	UIAApplication *app = [localTarget frontMostApp];
+	UIAWindow *window = [app mainWindow];
+	STAssertNotNil(window, nil);
+}
+
 @end
