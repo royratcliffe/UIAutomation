@@ -49,4 +49,12 @@
 	STAssertNotNil(window, nil);
 }
 
+- (void)testLocalTargetTap
+{
+	// Launch Safari in the iOS simulator to see the results of this
+	// test. Launch Safari then run the tests. It taps the address bar.
+	UIATarget *localTarget = [[UIAutomation targetClass] localTarget];
+	[localTarget tap:[NSValue valueWithCGPoint:CGPointMake(20.0, 20.0)]];
+}
+
 @end
