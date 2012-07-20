@@ -28,7 +28,9 @@
  * @brief Dynamically loads the private UIAutomation framework.
  * @details The UIAutomation class plays two roles. Firstly, it loads the
  * private UIAutomatic framework _dynamically_ rather than the usual static
- * loading. Secondly, it gives access to the automation classes.
+ * loading. Secondly, it gives access to the automation classes by acting as a
+ * monolithic library header; importing `UIAutomation/UIAutomation.h` includes
+ * all the automation framework interfaces.
  *
  * You cannot directly access the UIAutomation classes. Doing so requires that
  * you directly link against the private framework. The linker will complain if
