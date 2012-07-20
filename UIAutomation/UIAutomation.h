@@ -26,9 +26,18 @@
 
 /*!
  * @brief Dynamically loads the private UIAutomation framework.
- * @details The UIAutomation class plays two roles. Firstly, it loads the private UIAutomatic framework _dynamically_ rather than the usual static loading. Secondly, it gives access to the automation classes.
+ * @details The UIAutomation class plays two roles. Firstly, it loads the
+ * private UIAutomatic framework _dynamically_ rather than the usual static
+ * loading. Secondly, it gives access to the automation classes.
  *
- * You cannot directly access the UIAutomation classes. Doing so requires that you directly link against the private framework. The linker will complain if you do not when accessing classes directly, because the linker tries to resolve them at link-time rather than run-time; the loader will resolve the external references finally at load-time. However, since test bundles do not want to link against the private UIAutomation framework statically, only dynamically, you need to therefore access the classes dynamically. So rather than getting the local target using
+ * You cannot directly access the UIAutomation classes. Doing so requires that
+ * you directly link against the private framework. The linker will complain if
+ * you do not when accessing classes directly, because the linker tries to
+ * resolve them at link-time rather than run-time; the loader will resolve the
+ * external references finally at load-time. However, since test bundles do not
+ * want to link against the private UIAutomation framework statically, only
+ * dynamically, you need to therefore access the classes dynamically. So rather
+ * than getting the local target using
  * @code
  *	UIATarget *localTarget = [UIATarget localTarget];
  * @endcode
@@ -36,7 +45,10 @@
  * @code
  *	UIATarget *localTarget = [[UIAutomation targetClass] localTarget];
  * @endcode
- * Note, in this second correct case, you _can_ declare pointers to the automation classes directly. Only, you cannot send any messages directly. That would lead to a linker attempt to resolve the corresponding symbols at link-time.
+ * Note, in this second correct case, you _can_ declare pointers to the
+ * automation classes directly. Only, you cannot send any messages
+ * directly. That would lead to a linker attempt to resolve the corresponding
+ * symbols at link-time.
  */
 @interface UIAutomation : NSObject
 
