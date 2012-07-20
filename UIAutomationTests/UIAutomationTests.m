@@ -24,6 +24,14 @@
 
 #import "UIAutomationTests.h"
 
+#import <UIAutomation/UIAutomation.h>
+
 @implementation UIAutomationTests
+
+- (void)testAutomationDidLoad
+{
+	UIATarget *localTarget = [[UIAutomation targetClass] localTarget];
+	STAssertNotNil(localTarget, nil);
+}
 
 @end

@@ -22,4 +22,112 @@
  *
  ******************************************************************************/
 
-#import <UIAutomation/UIAutomationLoader.h>
+#import <Foundation/Foundation.h>
+
+/*!
+ * @brief Dynamically loads the private UIAutomation framework.
+ * @details The UIAutomation class plays two roles. Firstly, it loads the private UIAutomatic framework _dynamically_ rather than the usual static loading. Secondly, it gives access to the automation classes.
+ *
+ * You cannot directly access the UIAutomation classes. Doing so requires that you directly link against the private framework. The linker will complain if you do not when accessing classes directly, because the linker tries to resolve them at link-time rather than run-time; the loader will resolve the external references finally at load-time. However, since test bundles do not want to link against the private UIAutomation framework statically, only dynamically, you need to therefore access the classes dynamically. So rather than getting the local target using
+ * @code
+ *	UIATarget *localTarget = [UIATarget localTarget];
+ * @endcode
+ * instead use
+ * @code
+ *	UIATarget *localTarget = [[UIAutomation targetClass] localTarget];
+ * @endcode
+ * Note, in this second correct case, you _can_ declare pointers to the automation classes directly. Only, you cannot send any messages directly. That would lead to a linker attempt to resolve the corresponding symbols at link-time.
+ */
+@interface UIAutomation : NSObject
+
++ (Class)actionSheetClass;
++ (Class)activityIndicatorClass;
++ (Class)alertClass;
++ (Class)applicationClass;
++ (Class)buttonClass;
++ (Class)editingMenuClass;
++ (Class)elementClass;
++ (Class)elementArrayClass;
++ (Class)elementNilClass;
++ (Class)hostClass;
++ (Class)imageClass;
++ (Class)keyClass;
++ (Class)keyboardClass;
++ (Class)linkClass;
++ (Class)navigationBarClass;
++ (Class)pageIndicatorClass;
++ (Class)pickerWheelClass;
++ (Class)popoverClass;
++ (Class)progressIndicatorClass;
++ (Class)recorderClass;
++ (Class)recorderActionClass;
++ (Class)screenClass;
++ (Class)scrollViewClass;
++ (Class)searchBarClass;
++ (Class)secureTextFieldClass;
++ (Class)segmentedControlClass;
++ (Class)sliderClass;
++ (Class)staticTextClass;
++ (Class)statusBarClass;
++ (Class)switchClass;
++ (Class)syntheticEventsClass;
++ (Class)tabBarClass;
++ (Class)tableCellClass;
++ (Class)tableGroupClass;
++ (Class)tableViewClass;
++ (Class)targetClass;
++ (Class)textFieldClass;
++ (Class)textViewClass;
++ (Class)toolbarClass;
++ (Class)webViewClass;
++ (Class)windowClass;
++ (Class)xElementClass;
+
+@end
+
+#import <UIAutomation/NSArray-UIAExtras.h>
+#import <UIAutomation/NSValue-UIAutomation.h>
+#import <UIAutomation/UIAActionSheet.h>
+#import <UIAutomation/UIAActivityIndicator.h>
+#import <UIAutomation/UIAAlert.h>
+#import <UIAutomation/UIAApplication.h>
+#import <UIAutomation/UIAButton.h>
+#import <UIAutomation/UIAEditingMenu.h>
+#import <UIAutomation/UIAElement.h>
+#import <UIAutomation/UIAElementArray.h>
+#import <UIAutomation/UIAElementNil.h>
+#import <UIAutomation/UIAHost.h>
+#import <UIAutomation/UIAImage.h>
+#import <UIAutomation/UIAKey.h>
+#import <UIAutomation/UIAKeyboard.h>
+#import <UIAutomation/UIALink.h>
+#import <UIAutomation/UIANavigationBar.h>
+#import <UIAutomation/UIAPageIndicator.h>
+#import <UIAutomation/UIAPicker.h>
+#import <UIAutomation/UIAPickerWheel.h>
+#import <UIAutomation/UIAPopover.h>
+#import <UIAutomation/UIAProgressIndicator.h>
+#import <UIAutomation/UIARecorder.h>
+#import <UIAutomation/UIARecorderAction.h>
+#import <UIAutomation/UIAScreen.h>
+#import <UIAutomation/UIAScrollView.h>
+#import <UIAutomation/UIASearchBar.h>
+#import <UIAutomation/UIASecureTextField.h>
+#import <UIAutomation/UIASegmentedControl.h>
+#import <UIAutomation/UIASlider.h>
+#import <UIAutomation/UIAStaticText.h>
+#import <UIAutomation/UIAStatusBar.h>
+#import <UIAutomation/UIASwitch.h>
+#import <UIAutomation/UIASyntheticEvents.h>
+#import <UIAutomation/UIATabBar.h>
+#import <UIAutomation/UIATableCell.h>
+#import <UIAutomation/UIATableGroup.h>
+#import <UIAutomation/UIATableView.h>
+#import <UIAutomation/UIATarget.h>
+#import <UIAutomation/UIATextField.h>
+#import <UIAutomation/UIATextView.h>
+#import <UIAutomation/UIAToolbar.h>
+#import <UIAutomation/UIAWebView.h>
+#import <UIAutomation/UIAWindow.h>
+#import <UIAutomation/UIAXElement-Protocol.h>
+#import <UIAutomation/UIAXElement.h>

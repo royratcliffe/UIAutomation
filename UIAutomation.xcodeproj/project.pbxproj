@@ -15,8 +15,53 @@
 		78B19BB315B5B5E200D9E96E /* libUIAutomation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19B9A15B5B5E200D9E96E /* libUIAutomation.a */; };
 		78B19BB915B5B5E200D9E96E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78B19BB715B5B5E200D9E96E /* InfoPlist.strings */; };
 		78B19BBC15B5B5E300D9E96E /* UIAutomationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B19BBB15B5B5E300D9E96E /* UIAutomationTests.m */; };
-		78B19BF815B5B7DA00D9E96E /* UIAutomationLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B19BF715B5B7DA00D9E96E /* UIAutomationLoader.m */; };
-		78B19BF915B5B93200D9E96E /* UIAutomationLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B19BF615B5B7DA00D9E96E /* UIAutomationLoader.h */; };
+		78B745CE15B964D8008A5276 /* NSArray-UIAExtras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B7459E15B96271008A5276 /* NSArray-UIAExtras.h */; };
+		78B745CF15B964D8008A5276 /* NSValue-UIAutomation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745A115B96271008A5276 /* NSValue-UIAutomation.h */; };
+		78B745D015B964D8008A5276 /* UIAActionSheet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745A215B96271008A5276 /* UIAActionSheet.h */; };
+		78B745D115B964D8008A5276 /* UIAActivityIndicator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745A315B96271008A5276 /* UIAActivityIndicator.h */; };
+		78B745D215B964D8008A5276 /* UIAAlert.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745A415B96271008A5276 /* UIAAlert.h */; };
+		78B745D315B964D8008A5276 /* UIAApplication.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745A515B96271008A5276 /* UIAApplication.h */; };
+		78B745D415B964D8008A5276 /* UIAButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745A615B96271008A5276 /* UIAButton.h */; };
+		78B745D515B964D8008A5276 /* UIAEditingMenu.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745A715B96271008A5276 /* UIAEditingMenu.h */; };
+		78B745D615B964D8008A5276 /* UIAElement.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745A815B96271008A5276 /* UIAElement.h */; };
+		78B745D715B964D8008A5276 /* UIAElementArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745A915B96271008A5276 /* UIAElementArray.h */; };
+		78B745D815B964D8008A5276 /* UIAElementNil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745AA15B96271008A5276 /* UIAElementNil.h */; };
+		78B745D915B964D8008A5276 /* UIAHost.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745AB15B96271008A5276 /* UIAHost.h */; };
+		78B745DA15B964D8008A5276 /* UIAImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745AC15B96271008A5276 /* UIAImage.h */; };
+		78B745DB15B964D8008A5276 /* UIAKey.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745AD15B96271008A5276 /* UIAKey.h */; };
+		78B745DC15B964D8008A5276 /* UIAKeyboard.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745AE15B96271008A5276 /* UIAKeyboard.h */; };
+		78B745DD15B964D8008A5276 /* UIALink.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745AF15B96271008A5276 /* UIALink.h */; };
+		78B745DE15B964D8008A5276 /* UIANavigationBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745B015B96271008A5276 /* UIANavigationBar.h */; };
+		78B745DF15B964D8008A5276 /* UIAPageIndicator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745B115B96271008A5276 /* UIAPageIndicator.h */; };
+		78B745E015B964D8008A5276 /* UIAPicker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745B215B96271008A5276 /* UIAPicker.h */; };
+		78B745E115B964D8008A5276 /* UIAPickerWheel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745B315B96271008A5276 /* UIAPickerWheel.h */; };
+		78B745E215B964D8008A5276 /* UIAPopover.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745B415B96271008A5276 /* UIAPopover.h */; };
+		78B745E315B964D8008A5276 /* UIAProgressIndicator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745B515B96271008A5276 /* UIAProgressIndicator.h */; };
+		78B745E415B964D8008A5276 /* UIARecorder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745B615B96271008A5276 /* UIARecorder.h */; };
+		78B745E515B964D8008A5276 /* UIARecorderAction.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745B715B96271008A5276 /* UIARecorderAction.h */; };
+		78B745E615B964D8008A5276 /* UIAScreen.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745B815B96271008A5276 /* UIAScreen.h */; };
+		78B745E715B964D8008A5276 /* UIAScrollView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745B915B96271008A5276 /* UIAScrollView.h */; };
+		78B745E815B964D8008A5276 /* UIASearchBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745BA15B96271008A5276 /* UIASearchBar.h */; };
+		78B745E915B964D8008A5276 /* UIASecureTextField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745BB15B96271008A5276 /* UIASecureTextField.h */; };
+		78B745EA15B964D8008A5276 /* UIASegmentedControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745BC15B96271008A5276 /* UIASegmentedControl.h */; };
+		78B745EB15B964D8008A5276 /* UIASlider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745BD15B96271008A5276 /* UIASlider.h */; };
+		78B745EC15B964D8008A5276 /* UIAStaticText.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745BE15B96271008A5276 /* UIAStaticText.h */; };
+		78B745ED15B964D8008A5276 /* UIAStatusBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745BF15B96271008A5276 /* UIAStatusBar.h */; };
+		78B745EE15B964D8008A5276 /* UIASwitch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745C015B96271008A5276 /* UIASwitch.h */; };
+		78B745EF15B964D8008A5276 /* UIASyntheticEvents.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745C115B96271008A5276 /* UIASyntheticEvents.h */; };
+		78B745F015B964D8008A5276 /* UIATabBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745C215B96271008A5276 /* UIATabBar.h */; };
+		78B745F115B964D8008A5276 /* UIATableCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745C315B96271008A5276 /* UIATableCell.h */; };
+		78B745F215B964D8008A5276 /* UIATableGroup.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745C415B96271008A5276 /* UIATableGroup.h */; };
+		78B745F315B964D8008A5276 /* UIATableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745C515B96271008A5276 /* UIATableView.h */; };
+		78B745F415B964D8008A5276 /* UIATarget.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745C615B96271008A5276 /* UIATarget.h */; };
+		78B745F515B964D8008A5276 /* UIATextField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745C715B96271008A5276 /* UIATextField.h */; };
+		78B745F615B964D8008A5276 /* UIATextView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745C815B96271008A5276 /* UIATextView.h */; };
+		78B745F715B964D8008A5276 /* UIAToolbar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745C915B96271008A5276 /* UIAToolbar.h */; };
+		78B745F815B964D8008A5276 /* UIAWebView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745CA15B96271008A5276 /* UIAWebView.h */; };
+		78B745F915B964D8008A5276 /* UIAWindow.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745CB15B96271008A5276 /* UIAWindow.h */; };
+		78B745FA15B964D8008A5276 /* UIAXElement-Protocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745CC15B96271008A5276 /* UIAXElement-Protocol.h */; };
+		78B745FB15B964D8008A5276 /* UIAXElement.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745CD15B96271008A5276 /* UIAXElement.h */; };
+		78B745FD15B97BE8008A5276 /* UIAutomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B745FC15B97BE7008A5276 /* UIAutomation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +82,52 @@
 			dstSubfolderSpec = 16;
 			files = (
 				78B19BA315B5B5E200D9E96E /* UIAutomation.h in CopyFiles */,
-				78B19BF915B5B93200D9E96E /* UIAutomationLoader.h in CopyFiles */,
+				78B745CE15B964D8008A5276 /* NSArray-UIAExtras.h in CopyFiles */,
+				78B745CF15B964D8008A5276 /* NSValue-UIAutomation.h in CopyFiles */,
+				78B745D015B964D8008A5276 /* UIAActionSheet.h in CopyFiles */,
+				78B745D115B964D8008A5276 /* UIAActivityIndicator.h in CopyFiles */,
+				78B745D215B964D8008A5276 /* UIAAlert.h in CopyFiles */,
+				78B745D315B964D8008A5276 /* UIAApplication.h in CopyFiles */,
+				78B745D415B964D8008A5276 /* UIAButton.h in CopyFiles */,
+				78B745D515B964D8008A5276 /* UIAEditingMenu.h in CopyFiles */,
+				78B745D615B964D8008A5276 /* UIAElement.h in CopyFiles */,
+				78B745D715B964D8008A5276 /* UIAElementArray.h in CopyFiles */,
+				78B745D815B964D8008A5276 /* UIAElementNil.h in CopyFiles */,
+				78B745D915B964D8008A5276 /* UIAHost.h in CopyFiles */,
+				78B745DA15B964D8008A5276 /* UIAImage.h in CopyFiles */,
+				78B745DB15B964D8008A5276 /* UIAKey.h in CopyFiles */,
+				78B745DC15B964D8008A5276 /* UIAKeyboard.h in CopyFiles */,
+				78B745DD15B964D8008A5276 /* UIALink.h in CopyFiles */,
+				78B745DE15B964D8008A5276 /* UIANavigationBar.h in CopyFiles */,
+				78B745DF15B964D8008A5276 /* UIAPageIndicator.h in CopyFiles */,
+				78B745E015B964D8008A5276 /* UIAPicker.h in CopyFiles */,
+				78B745E115B964D8008A5276 /* UIAPickerWheel.h in CopyFiles */,
+				78B745E215B964D8008A5276 /* UIAPopover.h in CopyFiles */,
+				78B745E315B964D8008A5276 /* UIAProgressIndicator.h in CopyFiles */,
+				78B745E415B964D8008A5276 /* UIARecorder.h in CopyFiles */,
+				78B745E515B964D8008A5276 /* UIARecorderAction.h in CopyFiles */,
+				78B745E615B964D8008A5276 /* UIAScreen.h in CopyFiles */,
+				78B745E715B964D8008A5276 /* UIAScrollView.h in CopyFiles */,
+				78B745E815B964D8008A5276 /* UIASearchBar.h in CopyFiles */,
+				78B745E915B964D8008A5276 /* UIASecureTextField.h in CopyFiles */,
+				78B745EA15B964D8008A5276 /* UIASegmentedControl.h in CopyFiles */,
+				78B745EB15B964D8008A5276 /* UIASlider.h in CopyFiles */,
+				78B745EC15B964D8008A5276 /* UIAStaticText.h in CopyFiles */,
+				78B745ED15B964D8008A5276 /* UIAStatusBar.h in CopyFiles */,
+				78B745EE15B964D8008A5276 /* UIASwitch.h in CopyFiles */,
+				78B745EF15B964D8008A5276 /* UIASyntheticEvents.h in CopyFiles */,
+				78B745F015B964D8008A5276 /* UIATabBar.h in CopyFiles */,
+				78B745F115B964D8008A5276 /* UIATableCell.h in CopyFiles */,
+				78B745F215B964D8008A5276 /* UIATableGroup.h in CopyFiles */,
+				78B745F315B964D8008A5276 /* UIATableView.h in CopyFiles */,
+				78B745F415B964D8008A5276 /* UIATarget.h in CopyFiles */,
+				78B745F515B964D8008A5276 /* UIATextField.h in CopyFiles */,
+				78B745F615B964D8008A5276 /* UIATextView.h in CopyFiles */,
+				78B745F715B964D8008A5276 /* UIAToolbar.h in CopyFiles */,
+				78B745F815B964D8008A5276 /* UIAWebView.h in CopyFiles */,
+				78B745F915B964D8008A5276 /* UIAWindow.h in CopyFiles */,
+				78B745FA15B964D8008A5276 /* UIAXElement-Protocol.h in CopyFiles */,
+				78B745FB15B964D8008A5276 /* UIAXElement.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +145,53 @@
 		78B19BB815B5B5E200D9E96E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78B19BBA15B5B5E300D9E96E /* UIAutomationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutomationTests.h; sourceTree = "<group>"; };
 		78B19BBB15B5B5E300D9E96E /* UIAutomationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAutomationTests.m; sourceTree = "<group>"; };
-		78B19BF615B5B7DA00D9E96E /* UIAutomationLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAutomationLoader.h; sourceTree = "<group>"; };
-		78B19BF715B5B7DA00D9E96E /* UIAutomationLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAutomationLoader.m; sourceTree = "<group>"; };
+		78B7459E15B96271008A5276 /* NSArray-UIAExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray-UIAExtras.h"; sourceTree = "<group>"; };
+		78B745A115B96271008A5276 /* NSValue-UIAutomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue-UIAutomation.h"; sourceTree = "<group>"; };
+		78B745A215B96271008A5276 /* UIAActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAActionSheet.h; sourceTree = "<group>"; };
+		78B745A315B96271008A5276 /* UIAActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAActivityIndicator.h; sourceTree = "<group>"; };
+		78B745A415B96271008A5276 /* UIAAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAAlert.h; sourceTree = "<group>"; };
+		78B745A515B96271008A5276 /* UIAApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAApplication.h; sourceTree = "<group>"; };
+		78B745A615B96271008A5276 /* UIAButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAButton.h; sourceTree = "<group>"; };
+		78B745A715B96271008A5276 /* UIAEditingMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAEditingMenu.h; sourceTree = "<group>"; };
+		78B745A815B96271008A5276 /* UIAElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAElement.h; sourceTree = "<group>"; };
+		78B745A915B96271008A5276 /* UIAElementArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAElementArray.h; sourceTree = "<group>"; };
+		78B745AA15B96271008A5276 /* UIAElementNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAElementNil.h; sourceTree = "<group>"; };
+		78B745AB15B96271008A5276 /* UIAHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAHost.h; sourceTree = "<group>"; };
+		78B745AC15B96271008A5276 /* UIAImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAImage.h; sourceTree = "<group>"; };
+		78B745AD15B96271008A5276 /* UIAKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAKey.h; sourceTree = "<group>"; };
+		78B745AE15B96271008A5276 /* UIAKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAKeyboard.h; sourceTree = "<group>"; };
+		78B745AF15B96271008A5276 /* UIALink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIALink.h; sourceTree = "<group>"; };
+		78B745B015B96271008A5276 /* UIANavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIANavigationBar.h; sourceTree = "<group>"; };
+		78B745B115B96271008A5276 /* UIAPageIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAPageIndicator.h; sourceTree = "<group>"; };
+		78B745B215B96271008A5276 /* UIAPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAPicker.h; sourceTree = "<group>"; };
+		78B745B315B96271008A5276 /* UIAPickerWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAPickerWheel.h; sourceTree = "<group>"; };
+		78B745B415B96271008A5276 /* UIAPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAPopover.h; sourceTree = "<group>"; };
+		78B745B515B96271008A5276 /* UIAProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAProgressIndicator.h; sourceTree = "<group>"; };
+		78B745B615B96271008A5276 /* UIARecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIARecorder.h; sourceTree = "<group>"; };
+		78B745B715B96271008A5276 /* UIARecorderAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIARecorderAction.h; sourceTree = "<group>"; };
+		78B745B815B96271008A5276 /* UIAScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAScreen.h; sourceTree = "<group>"; };
+		78B745B915B96271008A5276 /* UIAScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAScrollView.h; sourceTree = "<group>"; };
+		78B745BA15B96271008A5276 /* UIASearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASearchBar.h; sourceTree = "<group>"; };
+		78B745BB15B96271008A5276 /* UIASecureTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASecureTextField.h; sourceTree = "<group>"; };
+		78B745BC15B96271008A5276 /* UIASegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASegmentedControl.h; sourceTree = "<group>"; };
+		78B745BD15B96271008A5276 /* UIASlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASlider.h; sourceTree = "<group>"; };
+		78B745BE15B96271008A5276 /* UIAStaticText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAStaticText.h; sourceTree = "<group>"; };
+		78B745BF15B96271008A5276 /* UIAStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAStatusBar.h; sourceTree = "<group>"; };
+		78B745C015B96271008A5276 /* UIASwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASwitch.h; sourceTree = "<group>"; };
+		78B745C115B96271008A5276 /* UIASyntheticEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASyntheticEvents.h; sourceTree = "<group>"; };
+		78B745C215B96271008A5276 /* UIATabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATabBar.h; sourceTree = "<group>"; };
+		78B745C315B96271008A5276 /* UIATableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATableCell.h; sourceTree = "<group>"; };
+		78B745C415B96271008A5276 /* UIATableGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATableGroup.h; sourceTree = "<group>"; };
+		78B745C515B96271008A5276 /* UIATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATableView.h; sourceTree = "<group>"; };
+		78B745C615B96271008A5276 /* UIATarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATarget.h; sourceTree = "<group>"; };
+		78B745C715B96271008A5276 /* UIATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATextField.h; sourceTree = "<group>"; };
+		78B745C815B96271008A5276 /* UIATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATextView.h; sourceTree = "<group>"; };
+		78B745C915B96271008A5276 /* UIAToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAToolbar.h; sourceTree = "<group>"; };
+		78B745CA15B96271008A5276 /* UIAWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAWebView.h; sourceTree = "<group>"; };
+		78B745CB15B96271008A5276 /* UIAWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAWindow.h; sourceTree = "<group>"; };
+		78B745CC15B96271008A5276 /* UIAXElement-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAXElement-Protocol.h"; sourceTree = "<group>"; };
+		78B745CD15B96271008A5276 /* UIAXElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAXElement.h; sourceTree = "<group>"; };
+		78B745FC15B97BE7008A5276 /* UIAutomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAutomation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +250,53 @@
 			isa = PBXGroup;
 			children = (
 				78B19BA215B5B5E200D9E96E /* UIAutomation.h */,
-				78B19BF615B5B7DA00D9E96E /* UIAutomationLoader.h */,
-				78B19BF715B5B7DA00D9E96E /* UIAutomationLoader.m */,
+				78B745FC15B97BE7008A5276 /* UIAutomation.m */,
+				78B7459E15B96271008A5276 /* NSArray-UIAExtras.h */,
+				78B745A115B96271008A5276 /* NSValue-UIAutomation.h */,
+				78B745A215B96271008A5276 /* UIAActionSheet.h */,
+				78B745A315B96271008A5276 /* UIAActivityIndicator.h */,
+				78B745A415B96271008A5276 /* UIAAlert.h */,
+				78B745A515B96271008A5276 /* UIAApplication.h */,
+				78B745A615B96271008A5276 /* UIAButton.h */,
+				78B745A715B96271008A5276 /* UIAEditingMenu.h */,
+				78B745A815B96271008A5276 /* UIAElement.h */,
+				78B745A915B96271008A5276 /* UIAElementArray.h */,
+				78B745AA15B96271008A5276 /* UIAElementNil.h */,
+				78B745AB15B96271008A5276 /* UIAHost.h */,
+				78B745AC15B96271008A5276 /* UIAImage.h */,
+				78B745AD15B96271008A5276 /* UIAKey.h */,
+				78B745AE15B96271008A5276 /* UIAKeyboard.h */,
+				78B745AF15B96271008A5276 /* UIALink.h */,
+				78B745B015B96271008A5276 /* UIANavigationBar.h */,
+				78B745B115B96271008A5276 /* UIAPageIndicator.h */,
+				78B745B215B96271008A5276 /* UIAPicker.h */,
+				78B745B315B96271008A5276 /* UIAPickerWheel.h */,
+				78B745B415B96271008A5276 /* UIAPopover.h */,
+				78B745B515B96271008A5276 /* UIAProgressIndicator.h */,
+				78B745B615B96271008A5276 /* UIARecorder.h */,
+				78B745B715B96271008A5276 /* UIARecorderAction.h */,
+				78B745B815B96271008A5276 /* UIAScreen.h */,
+				78B745B915B96271008A5276 /* UIAScrollView.h */,
+				78B745BA15B96271008A5276 /* UIASearchBar.h */,
+				78B745BB15B96271008A5276 /* UIASecureTextField.h */,
+				78B745BC15B96271008A5276 /* UIASegmentedControl.h */,
+				78B745BD15B96271008A5276 /* UIASlider.h */,
+				78B745BE15B96271008A5276 /* UIAStaticText.h */,
+				78B745BF15B96271008A5276 /* UIAStatusBar.h */,
+				78B745C015B96271008A5276 /* UIASwitch.h */,
+				78B745C115B96271008A5276 /* UIASyntheticEvents.h */,
+				78B745C215B96271008A5276 /* UIATabBar.h */,
+				78B745C315B96271008A5276 /* UIATableCell.h */,
+				78B745C415B96271008A5276 /* UIATableGroup.h */,
+				78B745C515B96271008A5276 /* UIATableView.h */,
+				78B745C615B96271008A5276 /* UIATarget.h */,
+				78B745C715B96271008A5276 /* UIATextField.h */,
+				78B745C815B96271008A5276 /* UIATextView.h */,
+				78B745C915B96271008A5276 /* UIAToolbar.h */,
+				78B745CA15B96271008A5276 /* UIAWebView.h */,
+				78B745CB15B96271008A5276 /* UIAWindow.h */,
+				78B745CC15B96271008A5276 /* UIAXElement-Protocol.h */,
+				78B745CD15B96271008A5276 /* UIAXElement.h */,
 				78B19BA015B5B5E200D9E96E /* Supporting Files */,
 			);
 			path = UIAutomation;
@@ -247,7 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78B19BF815B5B7DA00D9E96E /* UIAutomationLoader.m in Sources */,
+				78B745FD15B97BE8008A5276 /* UIAutomation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +580,7 @@
 				78B19BC115B5B5E300D9E96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78B19BC215B5B5E300D9E96E /* Build configuration list for PBXNativeTarget "UIAutomationTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +589,7 @@
 				78B19BC415B5B5E300D9E96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
