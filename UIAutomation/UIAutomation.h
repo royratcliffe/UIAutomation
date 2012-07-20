@@ -145,3 +145,4 @@
 #import <UIAutomation/UIAWindow.h>
 #import <UIAutomation/UIAXElement-Protocol.h>
 #import <UIAutomation/UIAXElement.h>
+#import <UIAutomation/Versioning.h>

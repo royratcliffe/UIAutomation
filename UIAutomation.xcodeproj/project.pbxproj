@@ -62,6 +62,8 @@
 		78B745FA15B964D8008A5276 /* UIAXElement-Protocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745CC15B96271008A5276 /* UIAXElement-Protocol.h */; };
 		78B745FB15B964D8008A5276 /* UIAXElement.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B745CD15B96271008A5276 /* UIAXElement.h */; };
 		78B745FD15B97BE8008A5276 /* UIAutomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B745FC15B97BE7008A5276 /* UIAutomation.m */; };
+		78B7463115B9B5CF008A5276 /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B7463015B9B5CF008A5276 /* Versioning.m */; };
+		78B7463215B9B6BE008A5276 /* Versioning.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B7462F15B9B5CF008A5276 /* Versioning.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +130,7 @@
 				78B745F915B964D8008A5276 /* UIAWindow.h in CopyFiles */,
 				78B745FA15B964D8008A5276 /* UIAXElement-Protocol.h in CopyFiles */,
 				78B745FB15B964D8008A5276 /* UIAXElement.h in CopyFiles */,
+				78B7463215B9B6BE008A5276 /* Versioning.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +195,8 @@
 		78B745CC15B96271008A5276 /* UIAXElement-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAXElement-Protocol.h"; sourceTree = "<group>"; };
 		78B745CD15B96271008A5276 /* UIAXElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAXElement.h; sourceTree = "<group>"; };
 		78B745FC15B97BE7008A5276 /* UIAutomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAutomation.m; sourceTree = "<group>"; };
+		78B7462F15B9B5CF008A5276 /* Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
+		78B7463015B9B5CF008A5276 /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +310,8 @@
 		78B19BA015B5B5E200D9E96E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78B7462F15B9B5CF008A5276 /* Versioning.h */,
+				78B7463015B9B5CF008A5276 /* Versioning.m */,
 				78B19BA115B5B5E200D9E96E /* UIAutomation-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -428,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78B745FD15B97BE8008A5276 /* UIAutomation.m in Sources */,
+				78B7463115B9B5CF008A5276 /* Versioning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
