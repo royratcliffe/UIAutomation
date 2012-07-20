@@ -57,4 +57,11 @@
 	[localTarget tap:[NSValue valueWithCGPoint:CGPointMake(20.0, 20.0)]];
 }
 
+- (void)testVersioning
+{
+	STAssertNotNil(UIAutomationVersionString(), nil);
+	STAssertTrue(strcmp(@encode(typeof(kUIAutomationVersionString)), "^C") == 0, nil);
+	STAssertTrue(strcmp(@encode(typeof(kUIAutomationVersionNumber)), "d") == 0, nil);
+}
+
 @end
