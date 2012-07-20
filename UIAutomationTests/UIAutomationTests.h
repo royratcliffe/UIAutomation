@@ -1,6 +1,6 @@
 // UIAutomationTests UIAutomationTests.h
 //
-// Copyright © 2012, Roy Ratcliffe, Pioneering Software, United Kingdom
+// Copyright © 2012, The OCCukes Organisation. All rights reserved.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the “Software”), to deal
