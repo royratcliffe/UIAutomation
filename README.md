@@ -8,7 +8,7 @@ Use
 UIATarget *localTarget = [[UIAutomation targetClass] localTarget];
 ```
 
-to access the automation local target, for example. If not already loaded, asking for the class using `+targetClass` loads the private framework first. Same applies to any other `+[UIAutomation aClass]` method, where `a` stands for one of many available automation classes.
+to access the automation local target, for example. If not already loaded, asking for the class using `+targetClass` loads the private framework first. Same applies to any other `+[UIAutomation aClass]` method, where `a` stands for one of many available automation classes. Please see the `UIAutomation` class methods for the full list. Typically, though, you only need to access the local target. From that object you can navigate and interact with the hierarchy of applications, windows and views.
 
 ## Where do the UIAutomation headers come from?
 
