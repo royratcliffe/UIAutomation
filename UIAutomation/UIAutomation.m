@@ -22,6 +22,7 @@
  *
  ******************************************************************************/
 
+#define __UIAUTOMATION_NO_PRIVATE_FRAMEWORK_IMPORTS__
 #import "UIAutomation.h"
 
 @implementation UIAutomation

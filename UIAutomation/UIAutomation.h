@@ -99,6 +99,19 @@
 
 @end
 
+/*
+ * UIAutomation acts as a class-specific header and a monolithic project header
+ * at the same time. This works most of the time. But there is one catch. The
+ * UIAutomation.m source file imports this header for the class interface. It
+ * does not require the private framework headers. Nor will it succeed in
+ * importing those headers until the headers install and can be found at
+ * <UIAutomation/NameOfSomeHeader.h> by the compiler. The compiler will fail
+ * until after installation. To avoid this, UIAutomation.m defines
+ * __UIAUTOMATION_NO_PRIVATE_FRAMEWORK_IMPORTS__ to exclude the private
+ * framework headers from the import.
+ */
+#if !defined(__UIAUTOMATION_NO_PRIVATE_FRAMEWORK_IMPORTS__)
+
 #import <UIAutomation/NSArray-UIAExtras.h>
 #import <UIAutomation/NSValue-UIAutomation.h>
 #import <UIAutomation/UIAActionSheet.h>
@@ -146,3 +159,5 @@
 #import <UIAutomation/UIAXElement-Protocol.h>
 #import <UIAutomation/UIAXElement.h>
 #import <UIAutomation/Versioning.h>
+
+#endif // __UIAUTOMATION_NO_PRIVATE_FRAMEWORK_IMPORTS__
