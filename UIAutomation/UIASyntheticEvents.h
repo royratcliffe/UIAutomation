@@ -9,8 +9,6 @@
 struct _EventMessage;
 
 @interface UIASyntheticEvents : NSObject
-{
-}
 
 + (UIASyntheticEvents *)sharedEventGenerator;
 - (id)init;

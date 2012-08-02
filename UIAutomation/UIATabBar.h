@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIATabBar : UIAElement
-{
-}
 
 - (id)selectedButton;
 

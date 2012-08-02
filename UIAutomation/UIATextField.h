@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIATextField : UIAElement
-{
-}
 
 - (BOOL)_textFieldShouldAcceptAXElement:(id)arg1;
 - (UIAElementArray *)elements;

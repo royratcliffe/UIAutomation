@@ -7,7 +7,5 @@
 #import <UIAutomation/UIATextField.h>
 
 @interface UIASecureTextField : UIATextField
-{
-}
 
 @end

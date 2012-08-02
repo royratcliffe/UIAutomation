@@ -7,7 +7,5 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIAEditingMenu : UIAElement
-{
-}
 
 @end

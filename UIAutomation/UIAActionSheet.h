@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIAActionSheet : UIAElement
-{
-}
 
 + (id)toOneRelationshipKeys;
 - (id)cancelButton;

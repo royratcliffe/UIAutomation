@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIAPicker : UIAElement
-{
-}
 
 + (id)_moreToManyRelationshipKeys;
 + (id)toManyRelationshipKeys;

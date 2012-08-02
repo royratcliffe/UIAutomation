@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIAPageIndicator : UIAElement
-{
-}
 
 - (id)pageIndex;
 - (id)pageCount;

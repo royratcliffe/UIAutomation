@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAButton.h>
 
 @interface UIAKey : UIAButton
-{
-}
 
 - (void)_delayForAnimationsInProgress;
 - (id)scriptingActionExpressionShouldFavorTapOffset;

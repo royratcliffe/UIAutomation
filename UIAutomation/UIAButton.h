@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIAButton : UIAElement
-{
-}
 
 - (id)value;
 - (id)scriptingActionExpressionShouldFavorTapOffset;

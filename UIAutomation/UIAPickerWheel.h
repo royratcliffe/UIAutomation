@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIAPickerWheel : UIAElement
-{
-}
 
 - (UIAElementArray *)elements;
 - (UIAElementArray *)values;

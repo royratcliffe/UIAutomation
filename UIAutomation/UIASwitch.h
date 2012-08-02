@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIASwitch : UIAElement
-{
-}
 
 - (UIAElementArray *)elements;
 - (id)value;

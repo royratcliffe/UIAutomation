@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIAAlert : UIAElement
-{
-}
 
 + (id)_moreToOneRelationshipKeys;
 + (id)toOneRelationshipKeys;

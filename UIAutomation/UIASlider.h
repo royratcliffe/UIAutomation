@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIASlider : UIAElement
-{
-}
 
 - (UIAElementArray *)elements;
 - (void)dragToValue:(id)arg1;

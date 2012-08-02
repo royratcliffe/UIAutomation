@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIAStaticText : UIAElement
-{
-}
 
 - (BOOL)_shouldAllowSettingValue;
 

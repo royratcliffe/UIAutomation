@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIATableGroup : UIAElement
-{
-}
 
 + (Class)_classForSimpleUIAXElement:(id)arg1;
 - (id)name;

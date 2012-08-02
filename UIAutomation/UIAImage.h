@@ -7,7 +7,5 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIAImage : UIAElement
-{
-}
 
 @end

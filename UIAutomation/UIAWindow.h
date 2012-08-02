@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIAWindow : UIAElement
-{
-}
 
 - (id)contentArea;
 - (id)_uiaContentArea;

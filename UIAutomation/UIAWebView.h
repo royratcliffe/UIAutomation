@@ -7,7 +7,5 @@
 #import <UIAutomation/UIAScrollView.h>
 
 @interface UIAWebView : UIAScrollView
-{
-}
 
 @end

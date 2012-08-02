@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIAPopover : UIAElement
-{
-}
 
 - (void)dismiss;
 

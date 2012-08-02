@@ -7,8 +7,6 @@
 #import <UIAutomation/UIAElement.h>
 
 @interface UIASegmentedControl : UIAElement
-{
-}
 
 - (id)selectedButton;
 
