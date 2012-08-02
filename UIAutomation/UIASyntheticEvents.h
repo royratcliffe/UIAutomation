@@ -12,7 +12,7 @@ struct _EventMessage;
 {
 }
 
-+ (id)sharedEventGenerator;
++ (UIASyntheticEvents *)sharedEventGenerator;
 - (id)init;
 - (int)_sendEventMessage:(struct _EventMessage *)arg1;
 - (void)_sendHandEventWithPointArray:(struct CGPoint *)arg1 indentifierArray:(int *)arg2 pointCount:(int)arg3;
