@@ -13,6 +13,6 @@
 - (id)contentArea;
 - (id)_uiaContentArea;
 - (BOOL)_windowShouldAcceptAXElement:(id)arg1;
-- (id)elements;
+- (UIAElementArray *)elements;
 
 @end

@@ -16,6 +16,6 @@
 - (id)leftButton;
 - (id)rightButton;
 - (BOOL)_navBarShouldAcceptAXElement:(id)arg1;
-- (id)elements;
+- (UIAElementArray *)elements;
 
 @end

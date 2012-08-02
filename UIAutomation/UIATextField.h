@@ -11,7 +11,7 @@
 }
 
 - (BOOL)_textFieldShouldAcceptAXElement:(id)arg1;
-- (id)elements;
+- (UIAElementArray *)elements;
 - (id)scriptingActionExpressionShouldFavorTapOffset;
 
 @end

@@ -21,9 +21,9 @@
 - (id)firstVisibleCellIndex;
 - (id)lastVisibleCellIndex;
 - (id)cellCount;
-- (id)cells;
-- (id)groups;
-- (id)visibleCells;
-- (id)visibleGroups;
+- (UIAElementArray *)cells;
+- (UIAElementArray *)groups;
+- (UIAElementArray *)visibleCells;
+- (UIAElementArray *)visibleGroups;
 
 @end

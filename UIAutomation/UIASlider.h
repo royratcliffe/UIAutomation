@@ -10,7 +10,7 @@
 {
 }
 
-- (id)elements;
+- (UIAElementArray *)elements;
 - (void)dragToValue:(id)arg1;
 
 @end

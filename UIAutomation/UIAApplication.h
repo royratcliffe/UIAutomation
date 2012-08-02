@@ -32,7 +32,7 @@
 - (void)setPreferencesValue:(id)arg1 forKey:(id)arg2;
 - (id)preferencesValueForKey:(id)arg1;
 - (int)interfaceOrientation;
-- (id)windows;
+- (UIAElementArray *)windows;
 - (id)keyWindow;
 - (id)_axMainWindow;
 - (id)mainWindow;
@@ -45,6 +45,6 @@
 - (id)navigationBar;
 - (id)tabBar;
 - (id)toolbar;
-- (id)scriptingSynonymStrings;
+- (UIAElementArray *)scriptingSynonymStrings;
 
 @end

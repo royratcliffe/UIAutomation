@@ -10,8 +10,8 @@
 {
 }
 
-- (id)elements;
-- (id)values;
+- (UIAElementArray *)elements;
+- (UIAElementArray *)values;
 - (BOOL)_spinWheel:(int)arg1;
 - (void)selectValue:(id)arg1;
 

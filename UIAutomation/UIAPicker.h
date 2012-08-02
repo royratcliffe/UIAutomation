@@ -12,6 +12,6 @@
 
 + (id)_moreToManyRelationshipKeys;
 + (id)toManyRelationshipKeys;
-- (id)wheels;
+- (UIAElementArray *)wheels;
 
 @end

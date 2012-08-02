@@ -10,7 +10,7 @@
 {
 }
 
-- (id)elements;
+- (UIAElementArray *)elements;
 - (id)value;
 - (void)setValue:(id)arg1;
 

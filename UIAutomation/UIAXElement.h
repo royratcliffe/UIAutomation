@@ -67,9 +67,9 @@
 - (long)axError;
 - (BOOL)isValid;
 - (BOOL)checkIsValid;
-- (id)valuesForAllKnownAttributes;
+- (UIAElementArray *)valuesForAllKnownAttributes;
 - (id)stringForAttributes:(id)arg1;
-- (id)stringForAllKnownAttributes;
+- (UIAElementArray *)stringForAllKnownAttributes;
 - (id)_copyTraitsNumber;
 - (id)traitsNumber;
 - (unsigned long long)traits;

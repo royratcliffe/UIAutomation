@@ -7,6 +7,7 @@
 #import <UIAutomation/UIAElement.h>
 
 @class CLSimulationManager, NSDate, NSString, UIAHost;
+@class UIAApplication;
 
 @interface UIATarget : UIAElement
 {
@@ -59,10 +60,10 @@
 - (int)textViewValueMaxLength;
 - (void)setTextViewValueMaxLength:(int)arg1;
 - (id)host;
-- (id)applications;
-- (id)frontMostApp;
+- (UIAElementArray *)applications;
+- (UIAApplication *)frontMostApp;
 - (id)mainScreen;
-- (id)elements;
+- (UIAElementArray *)elements;
 - (id)uiaxSystemWideElement;
 - (double)patience;
 - (void)setPatience:(double)arg1;
@@ -76,7 +77,7 @@
 - (void)setPassiveEventListeningMode:(id)arg1 withDelay:(id)arg2;
 - (BOOL)_handleAlert;
 - (id)scriptingFavoredSynonymString;
-- (id)scriptingSynonymStrings;
+- (UIAElementArray *)scriptingSynonymStrings;
 - (id)localizedStringForKey:(id)arg1 value:(id)arg2 table:(id)arg3 bundlePath:(id)arg4;
 - (BOOL)_tapOptionalObject:(id)arg1 tapCount:(double)arg2 touchCount:(double)arg3 tapOffset:(id)arg4;
 - (BOOL)_tapRequiredObject:(id)arg1 tapCount:(double)arg2 touchCount:(double)arg3;
