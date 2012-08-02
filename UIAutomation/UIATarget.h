@@ -20,7 +20,7 @@
 	BOOL _logElementTakesScreenshot;
 }
 
-+ (id)localTarget;
++ (UIATarget *)localTarget;
 + (id)_locationForObject:(id)arg1 withOptions:(id)arg2;
 + (id)attributeKeys;
 + (id)toOneRelationshipKeys;
