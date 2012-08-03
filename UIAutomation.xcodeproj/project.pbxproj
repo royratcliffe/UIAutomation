@@ -10,7 +10,6 @@
 		78B19B9E15B5B5E200D9E96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19B9D15B5B5E200D9E96E /* Foundation.framework */; };
 		78B19BA315B5B5E200D9E96E /* UIAutomation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B19BA215B5B5E200D9E96E /* UIAutomation.h */; };
 		78B19BAD15B5B5E200D9E96E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19BAC15B5B5E200D9E96E /* SenTestingKit.framework */; };
-		78B19BAF15B5B5E200D9E96E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19BAE15B5B5E200D9E96E /* UIKit.framework */; };
 		78B19BB015B5B5E200D9E96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19B9D15B5B5E200D9E96E /* Foundation.framework */; };
 		78B19BB315B5B5E200D9E96E /* libUIAutomation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19B9A15B5B5E200D9E96E /* libUIAutomation.a */; };
 		78B19BB915B5B5E200D9E96E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78B19BB715B5B5E200D9E96E /* InfoPlist.strings */; };
@@ -64,6 +63,14 @@
 		78B745FD15B97BE8008A5276 /* UIAutomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B745FC15B97BE7008A5276 /* UIAutomation.m */; };
 		78B7463115B9B5CF008A5276 /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B7463015B9B5CF008A5276 /* Versioning.m */; };
 		78B7463215B9B6BE008A5276 /* Versioning.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B7462F15B9B5CF008A5276 /* Versioning.h */; };
+		78E452D215CA8EA700E8F653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19B9D15B5B5E200D9E96E /* Foundation.framework */; };
+		78E452D415CA8EA700E8F653 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E452D315CA8EA700E8F653 /* CoreGraphics.framework */; };
+		78E452DA15CA8EA700E8F653 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78E452D815CA8EA700E8F653 /* InfoPlist.strings */; };
+		78E452DC15CA8EA700E8F653 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E452DB15CA8EA700E8F653 /* main.m */; };
+		78E452E015CA8EA700E8F653 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E452DF15CA8EA700E8F653 /* AppDelegate.m */; };
+		78E452E815CA965700E8F653 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E452E715CA965700E8F653 /* UIKit.framework */; };
+		78E452E915CA96D300E8F653 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E452E715CA965700E8F653 /* UIKit.framework */; };
+		78E452EA15CA977E00E8F653 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E452D315CA8EA700E8F653 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +80,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 78B19B9915B5B5E200D9E96E;
 			remoteInfo = UIAutomation;
+		};
+		78E452E515CA8FA700E8F653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78B19B9115B5B5E200D9E96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78E452CE15CA8EA700E8F653;
+			remoteInfo = UIAutomationTestsApp;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -143,7 +157,6 @@
 		78B19BA215B5B5E200D9E96E /* UIAutomation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutomation.h; sourceTree = "<group>"; };
 		78B19BAB15B5B5E200D9E96E /* UIAutomationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAutomationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B19BAC15B5B5E200D9E96E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		78B19BAE15B5B5E200D9E96E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		78B19BB615B5B5E200D9E96E /* UIAutomationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAutomationTests-Info.plist"; sourceTree = "<group>"; };
 		78B19BB815B5B5E200D9E96E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78B19BBA15B5B5E300D9E96E /* UIAutomationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutomationTests.h; sourceTree = "<group>"; };
@@ -197,6 +210,15 @@
 		78B745FC15B97BE7008A5276 /* UIAutomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAutomation.m; sourceTree = "<group>"; };
 		78B7462F15B9B5CF008A5276 /* Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
 		78B7463015B9B5CF008A5276 /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
+		78E452CF15CA8EA700E8F653 /* UIAutomationTestsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAutomationTestsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E452D315CA8EA700E8F653 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78E452D715CA8EA700E8F653 /* UIAutomationTestsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAutomationTestsApp-Info.plist"; sourceTree = "<group>"; };
+		78E452D915CA8EA700E8F653 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78E452DB15CA8EA700E8F653 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78E452DD15CA8EA700E8F653 /* UIAutomationTestsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAutomationTestsApp-Prefix.pch"; sourceTree = "<group>"; };
+		78E452DE15CA8EA700E8F653 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78E452DF15CA8EA700E8F653 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78E452E715CA965700E8F653 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,10 +234,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E452EA15CA977E00E8F653 /* CoreGraphics.framework in Frameworks */,
+				78E452E815CA965700E8F653 /* UIKit.framework in Frameworks */,
 				78B19BAD15B5B5E200D9E96E /* SenTestingKit.framework in Frameworks */,
-				78B19BAF15B5B5E200D9E96E /* UIKit.framework in Frameworks */,
 				78B19BB015B5B5E200D9E96E /* Foundation.framework in Frameworks */,
 				78B19BB315B5B5E200D9E96E /* libUIAutomation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E452CC15CA8EA700E8F653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E452E915CA96D300E8F653 /* UIKit.framework in Frameworks */,
+				78E452D215CA8EA700E8F653 /* Foundation.framework in Frameworks */,
+				78E452D415CA8EA700E8F653 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +260,7 @@
 			children = (
 				78B19B9F15B5B5E200D9E96E /* UIAutomation */,
 				78B19BB415B5B5E200D9E96E /* UIAutomationTests */,
+				78E452D515CA8EA700E8F653 /* UIAutomationTestsApp */,
 				78B19B9C15B5B5E200D9E96E /* Frameworks */,
 				78B19B9B15B5B5E200D9E96E /* Products */,
 			);
@@ -237,6 +271,7 @@
 			children = (
 				78B19B9A15B5B5E200D9E96E /* libUIAutomation.a */,
 				78B19BAB15B5B5E200D9E96E /* UIAutomationTests.octest */,
+				78E452CF15CA8EA700E8F653 /* UIAutomationTestsApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,9 +279,10 @@
 		78B19B9C15B5B5E200D9E96E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78E452E715CA965700E8F653 /* UIKit.framework */,
 				78B19B9D15B5B5E200D9E96E /* Foundation.framework */,
 				78B19BAC15B5B5E200D9E96E /* SenTestingKit.framework */,
-				78B19BAE15B5B5E200D9E96E /* UIKit.framework */,
+				78E452D315CA8EA700E8F653 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -336,6 +372,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		78E452D515CA8EA700E8F653 /* UIAutomationTestsApp */ = {
+			isa = PBXGroup;
+			children = (
+				78E452DE15CA8EA700E8F653 /* AppDelegate.h */,
+				78E452DF15CA8EA700E8F653 /* AppDelegate.m */,
+				78E452D615CA8EA700E8F653 /* Supporting Files */,
+			);
+			path = UIAutomationTestsApp;
+			sourceTree = "<group>";
+		};
+		78E452D615CA8EA700E8F653 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78E452D715CA8EA700E8F653 /* UIAutomationTestsApp-Info.plist */,
+				78E452D815CA8EA700E8F653 /* InfoPlist.strings */,
+				78E452DB15CA8EA700E8F653 /* main.m */,
+				78E452DD15CA8EA700E8F653 /* UIAutomationTestsApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -368,12 +425,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				78E452E615CA8FA700E8F653 /* PBXTargetDependency */,
 				78B19BB215B5B5E200D9E96E /* PBXTargetDependency */,
 			);
 			name = UIAutomationTests;
 			productName = UIAutomationTests;
 			productReference = 78B19BAB15B5B5E200D9E96E /* UIAutomationTests.octest */;
 			productType = "com.apple.product-type.bundle";
+		};
+		78E452CE15CA8EA700E8F653 /* UIAutomationTestsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E452E315CA8EA700E8F653 /* Build configuration list for PBXNativeTarget "UIAutomationTestsApp" */;
+			buildPhases = (
+				78E452CB15CA8EA700E8F653 /* Sources */,
+				78E452CC15CA8EA700E8F653 /* Frameworks */,
+				78E452CD15CA8EA700E8F653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIAutomationTestsApp;
+			productName = UIAutomationTestsApp;
+			productReference = 78E452CF15CA8EA700E8F653 /* UIAutomationTestsApp.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -398,6 +473,7 @@
 			targets = (
 				78B19B9915B5B5E200D9E96E /* UIAutomation */,
 				78B19BAA15B5B5E200D9E96E /* UIAutomationTests */,
+				78E452CE15CA8EA700E8F653 /* UIAutomationTestsApp */,
 			);
 		};
 /* End PBXProject section */
@@ -408,6 +484,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				78B19BB915B5B5E200D9E96E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E452CD15CA8EA700E8F653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E452DA15CA8EA700E8F653 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +531,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78E452CB15CA8EA700E8F653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E452DC15CA8EA700E8F653 /* main.m in Sources */,
+				78E452E015CA8EA700E8F653 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -455,6 +548,11 @@
 			target = 78B19B9915B5B5E200D9E96E /* UIAutomation */;
 			targetProxy = 78B19BB115B5B5E200D9E96E /* PBXContainerItemProxy */;
 		};
+		78E452E615CA8FA700E8F653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78E452CE15CA8EA700E8F653 /* UIAutomationTestsApp */;
+			targetProxy = 78E452E515CA8FA700E8F653 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -462,6 +560,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				78B19BB815B5B5E200D9E96E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78E452D815CA8EA700E8F653 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78E452D915CA8EA700E8F653 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -548,6 +654,7 @@
 		78B19BC315B5B5E300D9E96E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIAutomationTestsApp.app/UIAutomationTestsApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -555,7 +662,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIAutomation/UIAutomation-Prefix.pch";
 				INFOPLIST_FILE = "UIAutomationTests/UIAutomationTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -563,6 +672,7 @@
 		78B19BC415B5B5E300D9E96E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIAutomationTestsApp.app/UIAutomationTestsApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -570,8 +680,49 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIAutomation/UIAutomation-Prefix.pch";
 				INFOPLIST_FILE = "UIAutomationTests/UIAutomationTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		78E452E115CA8EA700E8F653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP3.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAutomationTestsApp/UIAutomationTestsApp-Prefix.pch";
+				INFOPLIST_FILE = "UIAutomationTestsApp/UIAutomationTestsApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78E452E215CA8EA700E8F653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP3.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAutomationTestsApp/UIAutomationTestsApp-Prefix.pch";
+				INFOPLIST_FILE = "UIAutomationTestsApp/UIAutomationTestsApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -604,6 +755,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		78E452E315CA8EA700E8F653 /* Build configuration list for PBXNativeTarget "UIAutomationTestsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E452E115CA8EA700E8F653 /* Debug */,
+				78E452E215CA8EA700E8F653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
