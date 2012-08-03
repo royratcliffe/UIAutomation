@@ -158,6 +158,7 @@
 #import <UIAutomation/UIAWindow.h>
 #import <UIAutomation/UIAXElement-Protocol.h>
 #import <UIAutomation/UIAXElement.h>
+
 #import <UIAutomation/Versioning.h>
 
 #endif // __UIAUTOMATION_NO_PRIVATE_FRAMEWORK_IMPORTS__
