@@ -96,6 +96,13 @@
 + (Class)webViewClass;
 + (Class)windowClass;
 + (Class)xElementClass;
++ (Class)activityClass;
++ (Class)collectionCellClass;
++ (Class)collectionViewClass;
++ (Class)elementSynonymClass;
++ (Class)localizedValueClass;
++ (Class)mapViewClass;
++ (Class)remoteClass;
 
 @end
 
@@ -158,6 +165,13 @@
 #import <UIAutomation/UIAWindow.h>
 #import <UIAutomation/UIAXElement-Protocol.h>
 #import <UIAutomation/UIAXElement.h>
+#import <UIAutomation/UIAActivityView.h>
+#import <UIAutomation/UIACollectionCell.h>
+#import <UIAutomation/UIACollectionView.h>
+#import <UIAutomation/UIAElementSynonym.h>
+#import <UIAutomation/UIALocalizedValue.h>
+#import <UIAutomation/UIAMapView.h>
+#import <UIAutomation/UIARemote.h>
 
 #import <UIAutomation/Versioning.h>
 

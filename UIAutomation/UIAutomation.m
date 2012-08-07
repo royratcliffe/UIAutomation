@@ -254,4 +254,39 @@
 	return NSClassFromString(@"UIAXElement");
 }
 
++ (Class)activityClass
+{
+	return NSClassFromString(@"UIAActivityView");
+}
+
++ (Class)collectionCellClass
+{
+	return NSClassFromString(@"UIACollectionCell");
+}
+
++ (Class)collectionViewClass
+{
+	return NSClassFromString(@"UIACollectionView");
+}
+
++ (Class)elementSynonymClass
+{
+	return NSClassFromString(@"UIAElementSynonym");
+}
+
++ (Class)localizedValueClass
+{
+	return NSClassFromString(@"UIALocalizedValue");
+}
+
++ (Class)mapViewClass
+{
+	return NSClassFromString(@"UIAMapView");
+}
+
++ (Class)remoteClass
+{
+	return NSClassFromString(@"UIARemote");
+}
+
 @end
