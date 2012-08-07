@@ -33,9 +33,9 @@
 	NSString *iPhoneSimulatorRoot = [environment objectForKey:@"IPHONE_SIMULATOR_ROOT"];
 	NSString *path = [iPhoneSimulatorRoot stringByAppendingPathComponent:@"Developer/Library/PrivateFrameworks/UIAutomation.framework"];
 	NSBundle *bundle = [NSBundle bundleWithPath:path];
-	if (![bundle load])
+	if ([bundle load])
 	{
-		
+		[bundle principalClass];
 	}
 }
 
