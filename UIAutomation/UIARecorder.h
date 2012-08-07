@@ -26,8 +26,8 @@
 }
 
 + (id)defaultRecorder;
-- (void)_handEnded:(CDStruct_cee7353d *)arg1;
-- (void)_handStarted:(CDStruct_cee7353d *)arg1;
+- (void)_handEnded:(void *)arg1;
+- (void)_handStarted:(void *)arg1;
 - (void)_releaseEvents;
 - (id)_scriptingStringForOffsetWithScreenPoint:(struct CGPoint)arg1 inRect:(struct CGRect)arg2;
 - (id)_scriptingStringForPoint:(struct CGPoint)arg1;
@@ -38,7 +38,7 @@
 - (void)flushKeystrokes:(id)arg1;
 - (void)flushTapExpression:(id)arg1;
 - (void)handleAlert;
-- (void)handleEvent:(CDStruct_cee7353d *)arg1;
+- (void)handleEvent:(void *)arg1;
 - (void)handleOrientationChange;
 - (id)init;
 @property BOOL isRecording; // @synthesize isRecording=_isRecording;

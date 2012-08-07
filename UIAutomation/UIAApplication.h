@@ -6,7 +6,7 @@
 
 #import <UIAutomation/UIAElement.h>
 
-@class UIAElementArray;
+@class NSString, UIAElementArray;
 
 @interface UIAApplication : UIAElement
 {

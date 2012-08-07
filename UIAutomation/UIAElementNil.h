@@ -49,7 +49,7 @@
 - (BOOL)containsObject:(id)arg1;
 - (id)contentArea;
 - (unsigned int)count;
-- (unsigned int)countByEnumeratingWithState:(CDStruct_11f37819 *)arg1 objects:(id *)arg2 count:(unsigned int)arg3;
+- (unsigned int)countByEnumeratingWithState:(void *)arg2 count:(unsigned int)arg3;
 - (void)dealloc;
 - (id)defaultButton;
 - (id)depth;

@@ -11,7 +11,7 @@
 
 @interface UIARecorderAction : NSObject
 {
-	void *_eventRecord;
+	CDStruct_cee7353d *_eventRecord;
 	struct {
 	    int _field1;
 	    unsigned short _field2;
@@ -52,9 +52,9 @@
 }
 
 + (BOOL)_elementCanScroll:(id)arg1;
-+ (id)actionWithGSEventRecord:(CDStruct_cee7353d *)arg1;
++ (id)actionWithGSEventRecord:(void *)arg1;
 + (id)expressionForElement:(id)arg1;
-- (id)_initWithGSEventRecord:(CDStruct_cee7353d *)arg1;
+- (id)_initWithGSEventRecord:(void *)arg1;
 @property int actionType; // @synthesize actionType=_actionType;
 @property(retain) UIAXElement *axElement; // @synthesize axElement=_axElement;
 - (void)dealloc;
@@ -62,14 +62,14 @@
 @property(retain) UIAElement *element; // @synthesize element=_element;
 @property BOOL elementCanScroll; // @synthesize elementCanScroll=_elementCanScroll;
 @property struct CGPoint endLocation; // @synthesize endLocation=_endLocation;
-- (CDStruct_cee7353d *)eventRecord;
+- (void *)eventRecord;
 @property(retain) NSArray *expression; // @synthesize expression=_expression;
 - (BOOL)isCancelEvent;
 @property(retain) NSString *keyName; // @synthesize keyName=_keyName;
 @property(retain) NSArray *points; // @synthesize points=_points;
-- (void)setEventRecord:(CDStruct_cee7353d *)arg1;
+- (void)setEventRecord:(void *)arg1;
 @property struct CGPoint startLocation; // @synthesize startLocation=_startLocation;
 @property unsigned int touchCount; // @synthesize touchCount=_touchCount;
-- (void)updateWithGSEventRecord:(CDStruct_cee7353d *)arg1;
+- (void)updateWithGSEventRecord:(void *)arg1;
 
 @end

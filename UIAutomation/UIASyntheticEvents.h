@@ -18,7 +18,7 @@ struct _EventMessage;
 - (void)_moveLastTouchPoint:(struct CGPoint)arg1;
 - (void)_sendDownEvent:(int)arg1 upEvent:(int)arg2;
 - (void)_sendDownEvent:(int)arg1 upEvent:(int)arg2 duration:(double)arg3;
-- (void)_sendGSEvent:(CDStruct_cee7353d *)arg1 systemEvent:(BOOL)arg2;
+- (void)_sendGSEvent:(void *)arg1 systemEvent:(BOOL)arg2;
 - (void)_sendHIDEvent:(struct __IOHIDEvent *)arg1;
 - (void)_sendHIDKeyboardEventPage:(unsigned int)arg1 usage:(unsigned int)arg2 duration:(double)arg3;
 - (void)_sendSimpleEvent:(int)arg1;

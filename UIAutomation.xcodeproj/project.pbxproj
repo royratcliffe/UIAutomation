@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		788F617B15D12AA9009D6B17 /* UIAActivityView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 788F617315D12987009D6B17 /* UIAActivityView.h */; };
+		788F617C15D12AA9009D6B17 /* UIACollectionCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 788F617415D12987009D6B17 /* UIACollectionCell.h */; };
+		788F617D15D12AA9009D6B17 /* UIACollectionView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 788F617515D12987009D6B17 /* UIACollectionView.h */; };
+		788F617E15D12AA9009D6B17 /* UIAElementSynonym.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 788F617615D12987009D6B17 /* UIAElementSynonym.h */; };
+		788F617F15D12AA9009D6B17 /* UIALocalizedValue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 788F617715D12988009D6B17 /* UIALocalizedValue.h */; };
+		788F618015D12AA9009D6B17 /* UIAMapView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 788F617815D12988009D6B17 /* UIAMapView.h */; };
+		788F618115D12AA9009D6B17 /* UIARemote.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 788F617915D12988009D6B17 /* UIARemote.h */; };
 		78B19B9E15B5B5E200D9E96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19B9D15B5B5E200D9E96E /* Foundation.framework */; };
 		78B19BA315B5B5E200D9E96E /* UIAutomation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78B19BA215B5B5E200D9E96E /* UIAutomation.h */; };
 		78B19BAD15B5B5E200D9E96E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B19BAC15B5B5E200D9E96E /* SenTestingKit.framework */; };
@@ -144,6 +151,13 @@
 				78B745F915B964D8008A5276 /* UIAWindow.h in CopyFiles */,
 				78B745FA15B964D8008A5276 /* UIAXElement-Protocol.h in CopyFiles */,
 				78B745FB15B964D8008A5276 /* UIAXElement.h in CopyFiles */,
+				788F617B15D12AA9009D6B17 /* UIAActivityView.h in CopyFiles */,
+				788F617C15D12AA9009D6B17 /* UIACollectionCell.h in CopyFiles */,
+				788F617D15D12AA9009D6B17 /* UIACollectionView.h in CopyFiles */,
+				788F617E15D12AA9009D6B17 /* UIAElementSynonym.h in CopyFiles */,
+				788F617F15D12AA9009D6B17 /* UIALocalizedValue.h in CopyFiles */,
+				788F618015D12AA9009D6B17 /* UIAMapView.h in CopyFiles */,
+				788F618115D12AA9009D6B17 /* UIARemote.h in CopyFiles */,
 				78B7463215B9B6BE008A5276 /* Versioning.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +165,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		788F617315D12987009D6B17 /* UIAActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAActivityView.h; sourceTree = "<group>"; };
+		788F617415D12987009D6B17 /* UIACollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIACollectionCell.h; sourceTree = "<group>"; };
+		788F617515D12987009D6B17 /* UIACollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIACollectionView.h; sourceTree = "<group>"; };
+		788F617615D12987009D6B17 /* UIAElementSynonym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAElementSynonym.h; sourceTree = "<group>"; };
+		788F617715D12988009D6B17 /* UIALocalizedValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIALocalizedValue.h; sourceTree = "<group>"; };
+		788F617815D12988009D6B17 /* UIAMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAMapView.h; sourceTree = "<group>"; };
+		788F617915D12988009D6B17 /* UIARemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIARemote.h; sourceTree = "<group>"; };
 		78B19B9A15B5B5E200D9E96E /* libUIAutomation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIAutomation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B19B9D15B5B5E200D9E96E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78B19BA115B5B5E200D9E96E /* UIAutomation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAutomation-Prefix.pch"; sourceTree = "<group>"; };
@@ -338,6 +359,13 @@
 				78B745CB15B96271008A5276 /* UIAWindow.h */,
 				78B745CC15B96271008A5276 /* UIAXElement-Protocol.h */,
 				78B745CD15B96271008A5276 /* UIAXElement.h */,
+				788F617315D12987009D6B17 /* UIAActivityView.h */,
+				788F617415D12987009D6B17 /* UIACollectionCell.h */,
+				788F617515D12987009D6B17 /* UIACollectionView.h */,
+				788F617615D12987009D6B17 /* UIAElementSynonym.h */,
+				788F617715D12988009D6B17 /* UIALocalizedValue.h */,
+				788F617815D12988009D6B17 /* UIAMapView.h */,
+				788F617915D12988009D6B17 /* UIARemote.h */,
 				78B19BA015B5B5E200D9E96E /* Supporting Files */,
 			);
 			path = UIAutomation;
@@ -763,6 +791,7 @@
 				78E452E215CA8EA700E8F653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
