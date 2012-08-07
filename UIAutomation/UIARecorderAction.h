@@ -11,7 +11,7 @@
 
 @interface UIARecorderAction : NSObject
 {
-	CDStruct_cee7353d *_eventRecord;
+	void *_eventRecord;
 	struct {
 	    int _field1;
 	    unsigned short _field2;

@@ -7,6 +7,7 @@
 #import <Foundation/NSObject.h>
 
 struct _EventMessage;
+struct __IOHIDEvent;
 
 @interface UIASyntheticEvents : NSObject
 {
