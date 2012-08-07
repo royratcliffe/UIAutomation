@@ -8,9 +8,9 @@
 
 @interface UIAWindow : UIAElement
 
-- (id)contentArea;
 - (id)_uiaContentArea;
 - (BOOL)_windowShouldAcceptAXElement:(id)arg1;
-- (UIAElementArray *)elements;
+- (id)contentArea;
+- (id)elements;
 
 @end

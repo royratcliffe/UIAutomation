@@ -13,29 +13,30 @@
 {
 	void *_eventRecord;
 	struct {
-		int _field1;
-		unsigned short _field2;
-		unsigned short _field3;
-		float _field4;
-		float _field5;
-		float _field6;
-		float _field7;
-		float _field8;
-		float _field9;
-		unsigned char _field10;
-		unsigned char _field11;
-		unsigned char _field12;
-		struct {
-			unsigned char pathIndex;
-			unsigned char pathIdentity;
-			unsigned char pathProximity;
-			float pathPressure;
-			float pathMajorRadius;
-			struct CGPoint pathLocation;
-			void *pathWindow;
-		} _field13[0];
+	    int _field1;
+	    unsigned short _field2;
+	    unsigned short _field3;
+	    float _field4;
+	    float _field5;
+	    float _field6;
+	    float _field7;
+	    float _field8;
+	    float _field9;
+	    unsigned char _field10;
+	    unsigned char _field11;
+	    unsigned char _field12;
+	    struct {
+	        unsigned char _field1;
+	        unsigned char _field2;
+	        unsigned char _field3;
+	        float _field4;
+	        float _field5;
+	        struct CGPoint _field6;
+	        unsigned int _field7;
+	        void *_field8;
+	    } _field13[0];
 	} *_eventRecordData;
-	unsigned int _eventRecordDataLength;
+	unsigned long _eventRecordDataLength;
 	NSArray *_points;
 	UIAElement *_element;
 	UIAXElement *_axElement;
@@ -50,26 +51,25 @@
 	double _lastUpdateTime;
 }
 
-+ (id)actionWithGSEventRecord:(void *)arg1;
-+ (id)expressionForElement:(id)arg1;
 + (BOOL)_elementCanScroll:(id)arg1;
-- (id)_initWithGSEventRecord:(void *)arg1;
++ (id)actionWithGSEventRecord:(CDStruct_cee7353d *)arg1;
++ (id)expressionForElement:(id)arg1;
+- (id)_initWithGSEventRecord:(CDStruct_cee7353d *)arg1;
+@property int actionType; // @synthesize actionType=_actionType;
+@property(retain) UIAXElement *axElement; // @synthesize axElement=_axElement;
 - (void)dealloc;
-- (void)setEventRecord:(void *)arg1;
-- (void *)eventRecord;
-- (void)updateWithGSEventRecord:(void *)arg1;
 - (double)duration;
-- (BOOL)isCancelEvent;
-
+@property(retain) UIAElement *element; // @synthesize element=_element;
+@property BOOL elementCanScroll; // @synthesize elementCanScroll=_elementCanScroll;
 @property struct CGPoint endLocation; // @synthesize endLocation=_endLocation;
+- (CDStruct_cee7353d *)eventRecord;
+@property(retain) NSArray *expression; // @synthesize expression=_expression;
+- (BOOL)isCancelEvent;
+@property(retain) NSString *keyName; // @synthesize keyName=_keyName;
+@property(retain) NSArray *points; // @synthesize points=_points;
+- (void)setEventRecord:(CDStruct_cee7353d *)arg1;
 @property struct CGPoint startLocation; // @synthesize startLocation=_startLocation;
 @property unsigned int touchCount; // @synthesize touchCount=_touchCount;
-@property int actionType; // @synthesize actionType=_actionType;
-@property(retain) NSArray *expression; // @synthesize expression=_expression;
-@property(retain) NSString *keyName; // @synthesize keyName=_keyName;
-@property BOOL elementCanScroll; // @synthesize elementCanScroll=_elementCanScroll;
-@property(retain) UIAXElement *axElement; // @synthesize axElement=_axElement;
-@property(retain) UIAElement *element; // @synthesize element=_element;
-@property(retain) NSArray *points; // @synthesize points=_points;
+- (void)updateWithGSEventRecord:(CDStruct_cee7353d *)arg1;
 
 @end

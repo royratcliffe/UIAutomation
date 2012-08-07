@@ -12,11 +12,12 @@
 	double _interKeyDelayVariance;
 }
 
+- (void)_typeKeyForString:(id)arg1 keyLayout:(id)arg2;
 - (id)init;
-- (void)_typeKeyForString:(id)arg1;
-- (void)typeString:(id)arg1;
-
-@property double interKeyDelayVariance; // @synthesize interKeyDelayVariance=_interKeyDelayVariance;
+- (id)inputMode;
 @property double interKeyDelay; // @synthesize interKeyDelay=_interKeyDelay;
+@property double interKeyDelayVariance; // @synthesize interKeyDelayVariance=_interKeyDelayVariance;
+- (void)triggerDictationFromAudioInputPath:(id)arg1;
+- (void)typeString:(id)arg1;
 
 @end

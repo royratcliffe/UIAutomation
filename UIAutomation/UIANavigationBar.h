@@ -10,10 +10,10 @@
 
 + (id)_moreToOneRelationshipKeys;
 + (id)toOneRelationshipKeys;
-- (id)name;
-- (id)leftButton;
-- (id)rightButton;
 - (BOOL)_navBarShouldAcceptAXElement:(id)arg1;
-- (UIAElementArray *)elements;
+- (id)elements;
+- (id)leftButton;
+- (id)name;
+- (id)rightButton;
 
 @end

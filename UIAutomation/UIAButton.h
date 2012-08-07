@@ -8,7 +8,7 @@
 
 @interface UIAButton : UIAElement
 
-- (id)value;
 - (id)scriptingActionExpressionShouldFavorTapOffset;
+- (id)value;
 
 @end

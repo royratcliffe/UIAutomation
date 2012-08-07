@@ -8,8 +8,8 @@
 
 @interface UIASwitch : UIAElement
 
-- (UIAElementArray *)elements;
-- (id)value;
+- (id)elements;
 - (void)setValue:(id)arg1;
+- (id)value;
 
 @end

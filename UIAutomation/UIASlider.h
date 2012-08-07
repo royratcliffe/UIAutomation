@@ -8,7 +8,7 @@
 
 @interface UIASlider : UIAElement
 
-- (UIAElementArray *)elements;
 - (void)dragToValue:(id)arg1;
+- (id)elements;
 
 @end

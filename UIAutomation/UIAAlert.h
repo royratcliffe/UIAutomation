@@ -10,8 +10,8 @@
 
 + (id)_moreToOneRelationshipKeys;
 + (id)toOneRelationshipKeys;
-- (id)name;
 - (id)cancelButton;
 - (id)defaultButton;
+- (id)name;
 
 @end

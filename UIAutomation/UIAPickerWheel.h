@@ -8,9 +8,9 @@
 
 @interface UIAPickerWheel : UIAElement
 
-- (UIAElementArray *)elements;
-- (UIAElementArray *)values;
 - (BOOL)_spinWheel:(int)arg1;
+- (id)elements;
 - (void)selectValue:(id)arg1;
+- (id)values;
 
 @end

@@ -17,13 +17,13 @@
 + (id)_moreToManyRelationshipKeys;
 + (id)toManyRelationshipKeys;
 - (void)_emptyCaches;
-- (id)value;
-- (id)firstVisibleCellIndex;
-- (id)lastVisibleCellIndex;
 - (id)cellCount;
-- (UIAElementArray *)cells;
-- (UIAElementArray *)groups;
-- (UIAElementArray *)visibleCells;
-- (UIAElementArray *)visibleGroups;
+- (id)cells;
+- (id)firstVisibleCellIndex;
+- (id)groups;
+- (id)lastVisibleCellIndex;
+- (id)value;
+- (id)visibleCells;
+- (id)visibleGroups;
 
 @end

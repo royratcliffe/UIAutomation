@@ -10,7 +10,7 @@
 
 + (Class)_classForSimpleUIAXElement:(id)arg1;
 - (id)name;
-- (id)value;
 - (id)scriptingActionExpressionShouldFavorTapOffset;
+- (id)value;
 
 @end

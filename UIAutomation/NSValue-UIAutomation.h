@@ -7,10 +7,10 @@
 #import <Foundation/NSValue.h>
 
 @interface NSValue(UIAutomation)
+- (id)height;
 - (id)origin;
-- (id)x;
-- (id)y;
 - (id)size;
 - (id)width;
-- (id)height;
+- (id)x;
+- (id)y;
 @end

@@ -15,14 +15,16 @@
 
 + (id)attributeKeys;
 - (id)_initWithUIScreen:(id)arg1 parent:(id)arg2;
-- (void)dealloc;
 - (id)_uiScreen;
-- (id)description;
-- (id)copyWithZone:(struct _NSZone *)arg1;
-- (id)bounds;
-- (id)scale;
-- (id)applicationFrame;
 - (id)_uiaApplicationFrame;
+- (id)applicationFrame;
+- (id)bounds;
+- (id)brightness;
+- (id)copyWithZone:(struct _NSZone *)arg1;
+- (void)dealloc;
+- (id)description;
+- (id)scale;
+- (void)setBrightness:(id)arg1;
 - (id)uiScreen;
 
 @end
