@@ -31,6 +31,11 @@
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	self.window.backgroundColor = [UIColor whiteColor];
 	[self.window makeKeyAndVisible];
+	
+	// Application windows are expected to have a root view controller at the
+	// end of application launch.
+	self.window.rootViewController = [[UIViewController alloc] init];
+	
 	return YES;
 }
 
